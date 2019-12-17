@@ -1,0 +1,71 @@
+.honors{
+	display:grid;
+	grid-template-rows:190px 190px 190px 190px ;
+	grid-template-columns:199px 199px 199px 199px 199px 199px 190px; 
+	border:black 8px dotted;
+	width:995px;
+	height:500px;
+	background-color:gray;
+}
+
+.Last{
+	display:grid;
+	grid-column-start:1;
+	width:199px;
+	height:199px;
+	border: 2px dotted red;
+	background-color:white;
+}
+
+.First{
+	display:grid;
+	grid-column-start:2;
+	width:199px;
+	height:199px;
+	border:2px dotted red;
+	background-color:white;
+}
+
+.Comp{
+	display:grid;
+	grid-row-start:2;
+	width:200px;
+	height:100px;
+	border:2px dotted red;
+	background-color:white;
+	grid-gap:1px;
+}
+
+.Period{
+	display:grid;
+	grid-row-start:2;
+	width:200px;
+	height:100px;
+	border:2px dotted red;
+	background-color:white;
+}
+
+.back{
+	display:grid;
+	grid-column-start:1;
+	grid-template-rows:5;
+	background-color:white;
+	padding-bottom:2px;
+	width:500px;
+	height:200px;
+	font-size:80px;
+	grid-gap:4px;
+}
+
+.r{
+	width:300px;
+	height:200px;
+}
+
+.web{
+	grid-column-start:6;
+	grid-row-start:1;
+	font-size:90px;
+	text-align:center;
+
+}
